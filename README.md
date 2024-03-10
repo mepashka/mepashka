@@ -1,19 +1,15 @@
 ### Hi there 👋
-name: Repositories and diff history
+
+
+name: Recently starred
 uses: lowlighter/metrics@latest
 with:
-  filename: metrics.plugin.lines.history.svg
+  filename: metrics.plugin.stars.svg
   token: ${{ secrets.METRICS_TOKEN }}
   base: ""
-  plugin_lines: yes
-  plugin_lines_delay: 30
-  plugin_lines_sections: repositories, history
-  plugin_lines_repositories_limit: 2
-  plugin_lines_history_limit: 1
-  repositories_skipped: |
-    @use.patterns
-    */*
-    +lowlighter/metrics
+  plugin_stars: yes
+  plugin_stars_limit: 3
+
 
 <!--
 **mepashka/mepashka** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
