@@ -1,9 +1,54 @@
-<mxfile host="app.diagrams.net" modified="2024-07-23T04:21:51.525Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 YaBrowser/24.6.0.0 Safari/537.36" version="24.7.3" etag="LgR3rz2S_SMXpqn2tL89" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-23T04:32:35.909Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 YaBrowser/24.6.0.0 Safari/537.36" etag="JB3cUzDIoJwOuvzePptk" version="24.7.3" type="github">
   <diagram name="Страница — 1" id="bhy4CiKLPhXdfef4-koR">
-    <mxGraphModel>
+    <mxGraphModel dx="1626" dy="767" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="3-02JMphB9uHQA9Lax6u-4" value="Клиент" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="110" y="30" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="3-02JMphB9uHQA9Lax6u-5" value="Интерфейс системы" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="364" y="30" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="3-02JMphB9uHQA9Lax6u-6" value="База данных" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="620" y="30" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="3-02JMphB9uHQA9Lax6u-7" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="3-02JMphB9uHQA9Lax6u-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="120" as="sourcePoint" />
+            <mxPoint x="210" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3-02JMphB9uHQA9Lax6u-8" value="Запрос на добавление" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="3-02JMphB9uHQA9Lax6u-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3-02JMphB9uHQA9Lax6u-12" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="3-02JMphB9uHQA9Lax6u-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="179.5" as="sourcePoint" />
+            <mxPoint x="514" y="179.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3-02JMphB9uHQA9Lax6u-13" value="Запрос в БД " style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="3-02JMphB9uHQA9Lax6u-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3-02JMphB9uHQA9Lax6u-16" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="250" as="sourcePoint" />
+            <mxPoint x="410" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3-02JMphB9uHQA9Lax6u-17" value="Обновление заказа  " style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="3-02JMphB9uHQA9Lax6u-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3-02JMphB9uHQA9Lax6u-18" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="300" as="sourcePoint" />
+            <mxPoint x="154" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3-02JMphB9uHQA9Lax6u-19" value="Ответ клиенту" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="3-02JMphB9uHQA9Lax6u-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
