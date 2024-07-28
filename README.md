@@ -1,6 +1,5 @@
 ### Hi there 👋
 
-
 name: Recently starred
 uses: lowlighter/metrics@latest
 with:
